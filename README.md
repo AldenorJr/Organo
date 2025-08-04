@@ -1,59 +1,59 @@
 # Organo
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.4.
+Organo é uma aplicação web desenvolvida em Angular para organizar e visualizar leituras de livros, categorizando-os por gêneros literários.
 
-## Development server
+---
 
-To start a local development server, run:
+## O que o projeto faz
 
-```bash
-ng serve
+- Permite organizar livros por gêneros literários (Romance, Mistério, Fantasia, Ficção Científica, Técnicos, etc).
+- Exibe listas de livros, cada um com informações como título, autor, imagem e botão de favorito.
+- Interface responsiva e moderna, com destaque visual para cada gênero.
+- Possui componentes reutilizáveis para livros, gêneros, cabeçalho e rodapé.
+
+---
+
+## Estrutura do Projeto
+
+```
+organo/
+├── public/                     # Imagens e assets públicos
+│   ├── banner.png
+│   ├── favicon.ico
+│   ├── rodape.png
+│   └── sem-livros.png
+├── src/
+│   ├── index.html              # HTML principal
+│   ├── main.ts                 # Bootstrap Angular
+│   ├── styles.scss             # Estilos globais
+│   └── app/
+│       ├── app.ts              # Componente raiz
+│       ├── app.html            # Template raiz
+│       ├── app.scss            # Estilos do app
+│       ├── mock-books.ts       # Mock de dados dos livros
+│       └── componentes/
+│           ├── book/           # Componente de livro
+│           │   ├── book.ts
+│           │   ├── book.html
+│           │   └── book.scss
+│           ├── footer/         # Rodapé
+│           ├── header/         # Cabeçalho
+│           ├── list-books/     # Lista de livros
+│           └── literary-genre/ # Gênero literário
+├── angular.json                # Configuração Angular
+├── package.json                # Dependências e scripts
+├── tsconfig.json               # Configuração TypeScript
+└── README.md                   # Documentação do projeto
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## Tecnologias Utilizadas
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- **Angular 20+**: Framework principal para construção da aplicação.
+- **TypeScript**: Linguagem principal para desenvolvimento dos componentes.
+- **SCSS**: Pré-processador CSS para estilização dos componentes.
+- **HTML**: Estrutura dos componentes e páginas.
+- **Angular CLI**: Ferramenta para scaffolding, build e serve do projeto.
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
