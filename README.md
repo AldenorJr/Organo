@@ -48,6 +48,14 @@ organo/
 
 ---
 
+## Images do projeto
+
+<img width="1874" height="686" alt="image" src="https://github.com/user-attachments/assets/3f7d17c0-6ccf-4610-8148-1b3bfce25427" />
+<img width="1785" height="862" alt="image" src="https://github.com/user-attachments/assets/1d658bf8-d630-4804-9ee7-532e87bbadfb" />
+<img width="1770" height="818" alt="image" src="https://github.com/user-attachments/assets/cc67b796-2a99-4e26-a916-8f16b9b3b3d5" />
+
+---
+
 ## Tecnologias Utilizadas
 
 - **Angular 20+**: Framework principal para construção da aplicação.
